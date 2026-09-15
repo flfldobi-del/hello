@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Erstes Mandantengespräch – Unterlagen-Checkliste</title>
+  <style>
+    :root {
+      --ink: #1a2332;
+      --muted: #4a5568;
+      --line: #c5ced9;
+      --priv: #1e5a8a;
+      --priv-bg: #eef5fb;
+      --firm: #1a6b4a;
+      --firm-bg: #eef8f3;
+      --note: #5c4a1f;
+      --note-bg: #faf6eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 1.25rem 1.5rem 2rem;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.35;
+      color: var(--ink);
+      background: #fff;
+      max-width: 210mm;
+      margin-inline: auto;
+    }
+    h1 {
+      font-size: 14pt;
+      margin: 0 0 0.25rem;
+      border-bottom: 2.5px solid var(--ink);
+      padding-bottom: 0.35rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 9.5pt;
+      margin: 0.4rem 0 0.9rem;
+    }
+    h2 {
+      font-size: 11.5pt;
+      margin: 1rem 0 0.45rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 3px;
+    }
+    h2.privat { background: var(--priv-bg); color: var(--priv); }
+    h2.unternehmen { background: var(--firm-bg); color: var(--firm); }
+    h2.reflexion { background: var(--note-bg); color: var(--note); }
+    h3 {
+      font-size: 10pt;
+      margin: 0.65rem 0 0.25rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 0.35rem;
+      font-size: 9.5pt;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 0.28rem 0.4rem;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: #f3f5f8;
+      font-weight: 600;
+      width: 38%;
+    }
+    td.why { color: var(--muted); width: 62%; }
+    .hint {
+      font-size: 9pt;
+      color: var(--muted);
+      margin: 0.2rem 0 0.5rem;
+      font-style: italic;
+    }
+    .reflexion p {
+      margin: 0.35rem 0;
+      text-align: justify;
+    }
+    .footer {
+      margin-top: 1rem;
+      padding-top: 0.4rem;
+      border-top: 1px solid var(--line);
+      font-size: 8.5pt;
+      color: var(--muted);
+    }
+    @media print {
+      body { padding: 0.6cm 0.8cm; font-size: 9.5pt; }
+      h2 { break-after: avoid; }
+      table { break-inside: avoid; }
+      .page-break { break-before: page; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Erstes Mandantengespräch – Unterlagen-Checkliste</h1>
+  <p class="subtitle">
+    Handout für Steuerfachangestellte · Aufnahme neuer Mandanten · Privatpersonen und Unternehmen
+  </p>
+
+  <!-- ========== PRIVATPERSON ========== -->
+  <h2 class="privat">Teil A: Privatperson (Arbeitnehmer, Rentner, Vermieter u. a.)</h2>
+  <p class="hint">Ziel: vollständige Einkommensteuererklärung und korrekte Stammdatenanlage.</p>
+
+  <h3>1. Stammdaten / Identität</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt? (Hinweisfunktion)</th>
+    </tr>
+    <tr>
+      <td>Personalausweis / Reisepass</td>
+      <td class="why">Identität prüfen; korrekte Namens- und Adressdaten für Mandantenakte und Vollmacht</td>
+    </tr>
+    <tr>
+      <td>Steueridentifikationsnummer (IdNr.)</td>
+      <td class="why">Eindeutige Zuordnung beim Finanzamt; Pflichtangabe in der ESt-Erklärung</td>
+    </tr>
+    <tr>
+      <td>Steuernummer (falls vorhanden)</td>
+      <td class="why">Zuordnung zum Finanzamt / bisherigen Veranlagungen</td>
+    </tr>
+    <tr>
+      <td>IBAN / Kontoverbindung</td>
+      <td class="why">Erstattung / Lastschrift; Bankverbindung im ELSTER-Formular</td>
+    </tr>
+    <tr>
+      <td>Heiratsurkunde / Scheidungsurteil / Sterbeurkunde (falls relevant)</td>
+      <td class="why">Familienstand, Veranlagungsart, Hinterbliebenenregelungen</td>
+    </tr>
+    <tr>
+      <td>Geburtsurkunden / IdNr. der Kinder</td>
+      <td class="why">Kindergeld, Kinderfreibetrag, Sonderbedarf, Ausbildungsfreibetrag</td>
+    </tr>
+  </table>
+
+  <h3>2. Vorjahre / Finanzamt</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Letzte(r) Einkommensteuerbescheid(e)</td>
+      <td class="why">Vorjahreswerte, Verluste, Vorauszahlungen, offene Rechtsbehelfe</td>
+    </tr>
+    <tr>
+      <td>Bisherige ESt-Erklärungen / Belege (soweit vorhanden)</td>
+      <td class="why">Kontinuität; Prüfung, was bereits geltend gemacht wurde</td>
+    </tr>
+    <tr>
+      <td>Vollmacht für die Kanzlei (unterschrieben)</td>
+      <td class="why">Vertretung gegenüber dem Finanzamt; Abruf von Bescheiden/Daten</td>
+    </tr>
+  </table>
+
+  <h3>3. Einkünfte</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Lohnsteuerbescheinigung(en)</td>
+      <td class="why">Arbeitnehmereinkünfte (§ 19 EStG); Abgleich mit vorausgefüllter Erklärung</td>
+    </tr>
+    <tr>
+      <td>Rentenbescheide / Leistungsmitteilungen</td>
+      <td class="why">Renteneinkünfte; steuerpflichtiger Anteil</td>
+    </tr>
+    <tr>
+      <td>Kapitalerträge: Steuerbescheinigungen der Banken</td>
+      <td class="why">Abgeltungsteuer, Freistellungsauftrag, Günstigerprüfung, Verluste</td>
+    </tr>
+    <tr>
+      <td>Vermietung: Mietverträge, Einnahmen-/Ausgabenübersicht, Nebenkostenabrechnungen</td>
+      <td class="why">Einkünfte aus VuV (§ 21 EStG); Werbungskosten (Zinsen, AfA, Reparaturen)</td>
+    </tr>
+    <tr>
+      <td>Grundsteuerbescheid / Kaufvertrag Immobilie / Notar</td>
+      <td class="why">AfA-Bemessungsgrundlage, Anschaffungskosten, Grundstücksanteil</td>
+    </tr>
+    <tr>
+      <td>Arbeitslosengeld, Krankengeld, Elterngeld (Bescheide)</td>
+      <td class="why">Progressionsvorbehalt (§ 32b EStG)</td>
+    </tr>
+  </table>
+
+  <h3>4. Sonderausgaben, Vorsorge &amp; außergewöhnliche Belastungen</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Beitragsbescheinigungen KV / PV / RV / LV / BU</td>
+      <td class="why">Vorsorgeaufwendungen; Sonderausgabenabzug</td>
+    </tr>
+    <tr>
+      <td>Spendenquittungen / Zuwendungsbestätigungen</td>
+      <td class="why">Sonderausgaben; Abzug nur mit Nachweis</td>
+    </tr>
+    <tr>
+      <td>Kirchensteuerbescheinigung / Abrechnung</td>
+      <td class="why">Sonderausgaben; Abgleich mit Lohnsteuer</td>
+    </tr>
+    <tr>
+      <td>Nachweise zu außergewöhnlichen Belastungen (Arzt, Pflege, Behinderung)</td>
+      <td class="why">Abzug nach § 33 EStG; ggf. Behinderten-Pauschbetrag</td>
+    </tr>
+    <tr>
+      <td>Haushaltsnahe Dienstleistungen / Handwerkerrechnungen (mit Zahlungsnachweis)</td>
+      <td class="why">Steuerermäßigung nach § 35a EStG</td>
+    </tr>
+  </table>
+
+  <h3>5. Verträge &amp; Sonstiges</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Arbeitsvertrag / Homeoffice-Nachweise / Fahrtweg</td>
+      <td class="why">Werbungskosten (Pendlerpauschale, Arbeitsmittel, Homeoffice)</td>
+    </tr>
+    <tr>
+      <td>Fortbildungsnachweise / Studienbescheinigung</td>
+      <td class="why">Werbungskosten oder Sonderausgaben (Erstausbildung)</td>
+    </tr>
+    <tr>
+      <td>Scheidungsfolgenvereinbarung / Unterhaltszahlungen</td>
+      <td class="why">Realsplitting / Unterhalt als Sonderausgabe</td>
+    </tr>
+  </table>
+
+  <!-- ========== UNTERNEHMEN ========== -->
+  <h2 class="unternehmen page-break">Teil B: Unternehmer / Selbstständiger / Gesellschaft</h2>
+  <p class="hint">Ziel: korrekte steuerliche Einordnung, Buchführung und laufende Betreuung (ESt, USt, GewSt, LSt).</p>
+
+  <h3>1. Stammdaten / Rechtsform</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Personalausweis der Inhaber / Gesellschafter / Geschäftsführer</td>
+      <td class="why">Identität; wirtschaftlich Berechtigte (GwG); Mandantenakte</td>
+    </tr>
+    <tr>
+      <td>Gewerbeanmeldung / Handelsregisterauszug / Gesellschaftsvertrag</td>
+      <td class="why">Rechtsform, Vertretung, Gesellschafterstruktur, Firmierung</td>
+    </tr>
+    <tr>
+      <td>Steuernummer, USt-IdNr., Wirtschafts-IdNr. (falls vorhanden)</td>
+      <td class="why">Finanzamtszuordnung; innergemeinschaftlicher Handel; ELSTER</td>
+    </tr>
+    <tr>
+      <td>IBAN Betriebs-/Geschäftskonto</td>
+      <td class="why">Zahlungsverkehr; Abgrenzung Privatvermögen</td>
+    </tr>
+    <tr>
+      <td>Fragebogen zur steuerlichen Erfassung (Kopie / Entwurf)</td>
+      <td class="why">Neugründung: korrekte Anmeldung beim Finanzamt</td>
+    </tr>
+  </table>
+
+  <h3>2. Buchhaltung &amp; Jahresabschluss</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Kontoauszüge (Geschäftskonto), Kassenbuch</td>
+      <td class="why">Belegerfassung; Nachvollziehbarkeit der Geschäftsvorfälle</td>
+    </tr>
+    <tr>
+      <td>Eingangs- und Ausgangsrechnungen</td>
+      <td class="why">Vorsteuer / Umsatzsteuer; Betriebsausgaben; GoBD-konforme Ablage</td>
+    </tr>
+    <tr>
+      <td>Inventur / Anlagenverzeichnis / AfA-Liste</td>
+      <td class="why">Bilanz / EÜR; Abschreibungen; Wirtschaftsgüter</td>
+    </tr>
+    <tr>
+      <td>Letzter Jahresabschluss / EÜR / BWA</td>
+      <td class="why">Ausgangspunkt für laufende Beratung; Vorjahresvergleich</td>
+    </tr>
+    <tr>
+      <td>DATEV-/Buchhaltungsdaten bzw. Zugangsdaten Softwaresystem</td>
+      <td class="why">Übernahme bestehender Buchführung ohne Medienbruch</td>
+    </tr>
+  </table>
+
+  <h3>3. Steuern &amp; Voranmeldungen</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Umsatzsteuer-Voranmeldungen / Jahreserklärung</td>
+      <td class="why">Soll-/Ist-Versteuerung; Vorsteuerabzug; offene Fristen</td>
+    </tr>
+    <tr>
+      <td>Gewerbesteuerbescheid / Zerlegung</td>
+      <td class="why">Vorauszahlungen; Hinzurechnungen / Kürzungen</td>
+    </tr>
+    <tr>
+      <td>Lohnsteueranmeldungen / Beitragsnachweise Sozialversicherung</td>
+      <td class="why">Arbeitgeberpflichten; Lohnbuchhaltung übernehmen</td>
+    </tr>
+    <tr>
+      <td>Bescheide Einkommensteuer / KSt / Feststellungen</td>
+      <td class="why">Vorauszahlungen; Verlustvorträge; Sonderbilanzen (PersG)</td>
+    </tr>
+  </table>
+
+  <h3>4. Verträge &amp; Personal</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Miet-/Pachtverträge Betriebsräume</td>
+      <td class="why">Betriebsausgaben; USt bei Vermieter; Betriebsstätten</td>
+    </tr>
+    <tr>
+      <td>Darlehensverträge / Leasingverträge</td>
+      <td class="why">Zinsen als Betriebsausgabe; Bilanzierung / Verbindlichkeiten</td>
+    </tr>
+    <tr>
+      <td>Arbeitsverträge, Gehaltsabrechnungen, Stammblatt Personal</td>
+      <td class="why">Lohnbuchhaltung; Sozialversicherung; Steuerklassen</td>
+    </tr>
+    <tr>
+      <td>Gesellschafterdarlehen / Verträge mit nahen Angehörigen</td>
+      <td class="why">Fremdvergleich; Anerkennung durch Finanzamt</td>
+    </tr>
+    <tr>
+      <td>Versicherungen (Betriebshaftpflicht, BU Betrieb usw.)</td>
+      <td class="why">Betriebsausgaben; Risikoübersicht</td>
+    </tr>
+  </table>
+
+  <h3>5. Branchen-/Sonderfälle (bei Bedarf)</h3>
+  <table>
+    <tr>
+      <th>Unterlage</th>
+      <th>Warum benötigt?</th>
+    </tr>
+    <tr>
+      <td>Fahrtenbuch / Fahrzeugschein Firmenwagen</td>
+      <td class="why">1-%-Regelung vs. Fahrtenbuch; Privatnutzung</td>
+    </tr>
+    <tr>
+      <td>Bewirtungsbelege (mit Angaben zu Anlass/Teilnehmern)</td>
+      <td class="why">Abzugsfähigkeit von Bewirtungskosten</td>
+    </tr>
+    <tr>
+      <td>EU-/Auslandsbelege, Intrastat, Zollpapiere</td>
+      <td class="why">USt-Sonderfälle; Vorsteuervergütung; Meldepflichten</td>
+    </tr>
+  </table>
+
+  <!-- ========== REFLEXION ========== -->
+  <h2 class="reflexion">Zusatzaufgabe: Reflexion – Gesprächsführung</h2>
+  <div class="reflexion">
+    <p>
+      Kommt ein fachlich versierter Unternehmer, sollte ich als Steuerfachangestellte/r fachlich präzise und strukturiert auftreten, Fachbegriffe korrekt verwenden und dennoch aktiv nachfragen, statt stillschweigend anzunehmen, dass „alles klar“ ist.
+      Wichtig ist, Prioritäten und Fristen klar zu setzen (z.&nbsp;B. USt-Voranmeldung, Lohnlauf) und offene Punkte schriftlich festzuhalten, damit keine Missverständnisse entstehen.
+      Gleichzeitig muss ich höflich, aber bestimmt fehlende Belege einfordern und auf gesetzliche Nachweispflichten hinweisen, ohne belehrend zu wirken.
+    </p>
+    <p>
+      Bei einem unsicheren Privatmandanten gilt das Gegenteil der Fachsprache: ich erkläre in einfachen Worten, welche Unterlage wofür nötig ist, und gehe die Checkliste gemeinsam Schritt für Schritt durch.
+      Ich schaffe eine ruhige, vertrauensvolle Atmosphäre, lobe mitgebrachte Unterlagen und sortiere Unvollständiges ohne Druck, damit der Mandant nicht das Gefühl hat, „etwas falsch gemacht“ zu haben.
+      Empathie, Geduld und konkrete nächste Schritte („Bitte bringen Sie bis Freitag die Lohnsteuerbescheinigung und die Spendenquittungen mit“) sind hier entscheidend – so entsteht Sicherheit und eine tragfähige Mandantenbeziehung.
+    </p>
+  </div>
+
+  <p class="footer">
+    Hinweis: Die Checkliste ist eine praxisnahe Arbeitshilfe und erhebt keinen Anspruch auf Vollständigkeit.
+    Je nach Sachverhalt (z.&nbsp;B. Erbschaft, Auslandseinkünfte, Land- und Forstwirtschaft) sind zusätzliche Unterlagen erforderlich.
+  </p>
+
+</body>
+</html>
