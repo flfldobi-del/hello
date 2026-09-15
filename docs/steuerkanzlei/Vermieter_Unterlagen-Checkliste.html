@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unterlagen-Checkliste für Vermieter</title>
+  <style>
+    :root {
+      --ink: #1a2332;
+      --muted: #4a5568;
+      --line: #c5ced9;
+      --priv: #1e5a8a;
+      --priv-bg: #eef5fb;
+      --note: #5c4a1f;
+      --note-bg: #faf6eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem 2rem;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.35;
+      color: var(--ink);
+      background: #fff;
+      max-width: 210mm;
+    }
+    h1 {
+      font-size: 13pt;
+      margin: 0 0 0.25rem;
+      border-bottom: 2.5px solid var(--ink);
+      padding-bottom: 0.35rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 9.5pt;
+      margin: 0.4rem 0 0.9rem;
+    }
+    h2 {
+      font-size: 11pt;
+      margin: 1rem 0 0.45rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 3px;
+      background: var(--priv-bg);
+      color: var(--priv);
+    }
+    h2.reflexion { background: var(--note-bg); color: var(--note); }
+    h3 {
+      font-size: 10pt;
+      margin: 0.65rem 0 0.25rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 0.35rem;
+      font-size: 9.5pt;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 0.28rem 0.4rem;
+      vertical-align: top;
+      text-align: left;
+    }
+    th { background: #f3f5f8; font-weight: 600; width: 38%; }
+    td.why { color: var(--muted); width: 62%; }
+    .hint {
+      font-size: 9pt;
+      color: var(--muted);
+      margin: 0.2rem 0 0.5rem;
+      font-style: italic;
+    }
+    .reflexion p {
+      margin: 0.35rem 0;
+      text-align: justify;
+    }
+    .footer {
+      margin-top: 1rem;
+      padding-top: 0.4rem;
+      border-top: 1px solid var(--line);
+      font-size: 8.5pt;
+      color: var(--muted);
+    }
+    @media print {
+      body { padding: 0.6cm 0.8cm; font-size: 9.5pt; }
+      table { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Erstes Mandantengespräch – Unterlagen-Checkliste für Vermieter</h1>
+  <p class="subtitle">Handout für Steuerfachangestellte · Aufnahme eines Vermieters (Einkünfte aus VuV)</p>
+
+  <h2>Mandantentyp: Vermieter (Privatperson mit Vermietung und Verpachtung)</h2>
+  <p class="hint">Ziel: korrekte Erfassung der VuV-Einkünfte (§ 21 EStG), AfA, Werbungskosten und Stammdaten.</p>
+
+  <h3>1. Stammdaten / Identität</h3>
+  <table>
+    <tr><th>Unterlage</th><th>Warum benötigt? (Hinweisfunktion)</th></tr>
+    <tr><td>Personalausweis / Reisepass</td><td class="why">Identität prüfen; korrekte Daten für Mandantenakte und Vollmacht</td></tr>
+    <tr><td>Steueridentifikationsnummer (IdNr.)</td><td class="why">Eindeutige Zuordnung beim Finanzamt; Pflichtangabe in der ESt-Erklärung</td></tr>
+    <tr><td>Steuernummer (falls vorhanden)</td><td class="why">Zuordnung zum Finanzamt / bisherigen Veranlagungen</td></tr>
+    <tr><td>IBAN / Kontoverbindung</td><td class="why">Erstattung / Lastschrift; Bankverbindung im ELSTER-Formular</td></tr>
+    <tr><td>Familienstand / IdNr. Ehepartner &amp; Kinder (falls relevant)</td><td class="why">Veranlagungsart, Kinderfreibeträge, gemeinsame Veranlagung</td></tr>
+    <tr><td>Vollmacht für die Kanzlei (unterschrieben)</td><td class="why">Vertretung gegenüber dem Finanzamt; Abruf von Bescheiden</td></tr>
+  </table>
+
+  <h3>2. Vorjahre / Finanzamt</h3>
+  <table>
+    <tr><th>Unterlage</th><th>Warum benötigt?</th></tr>
+    <tr><td>Letzte(r) Einkommensteuerbescheid(e)</td><td class="why">Vorjahreswerte VuV, Vorauszahlungen, Verluste, offene Einsprüche</td></tr>
+    <tr><td>Bisherige ESt-Erklärungen (Anlage V)</td><td class="why">Kontinuität der Objekt- und AfA-Daten; was bereits angesetzt wurde</td></tr>
+    <tr><td>Bescheide zu Vorauszahlungen</td><td class="why">Anpassung der ESt-Vorauszahlungen bei neuen Objekten / Leerstand</td></tr>
+  </table>
+
+  <h3>3. Objektunterlagen (Immobilie)</h3>
+  <table>
+    <tr><th>Unterlage</th><th>Warum benötigt?</th></tr>
+    <tr><td>Kaufvertrag / Notarvertrag</td><td class="why">Anschaffungskosten; Aufteilung Grundstück / Gebäude für AfA</td></tr>
+    <tr><td>Grundbuchauszug / Eigentumsnachweis</td><td class="why">Eigentümerstellung; Objektzuordnung</td></tr>
+    <tr><td>Grundsteuerbescheid</td><td class="why">Objektkennzeichnung; Grundsteuer als Werbungskosten</td></tr>
+    <tr><td>Baubeschreibung / Wohnflächenberechnung / Teilungserklärung</td><td class="why">Nutzfläche, Wohn-/Nutzungsanteil, Sondereigentum (ETW)</td></tr>
+    <tr><td>Übergabeprotokoll / Fertigstellungsnachweis (Neubau)</td><td class="why">AfA-Beginn; Anschaffungs-/Herstellungszeitpunkt</td></tr>
+    <tr><td>Modernisierungs-/Sanierungsrechnungen (mit Zahlungsnachweis)</td><td class="why">Erhaltungsaufwand vs. Herstellungskosten; AfA-Bemessung</td></tr>
+  </table>
+
+  <h3>4. Einnahmen aus Vermietung</h3>
+  <table>
+    <tr><th>Unterlage</th><th>Warum benötigt?</th></tr>
+    <tr><td>Mietverträge (aktuell und Vorjahr)</td><td class="why">Mieteinnahmen, Kaution, Mietdauer, Nebenkostenregelung</td></tr>
+    <tr><td>Mieteingänge / Kontoauszüge Vermietung</td><td class="why">Ist-Einnahmen nachweisen; Leerstandszeiten erkennen</td></tr>
+    <tr><td>Nebenkostenabrechnungen an Mieter</td><td class="why">Umlagen, Nachzahlungen/Erstattungen; Abgrenzung</td></tr>
+    <tr><td>Aufstellung Mieteinnahmen je Objekt und Jahr</td><td class="why">Anlage V korrekt und vollständig ausfüllen</td></tr>
+    <tr><td>Nachweise zu Leerstand / Mietausfall</td><td class="why">Werbungskosten / Begründung fehlender Einnahmen</td></tr>
+  </table>
+
+  <h3>5. Werbungskosten / Ausgaben</h3>
+  <table>
+    <tr><th>Unterlage</th><th>Warum benötigt?</th></tr>
+    <tr><td>Darlehensverträge &amp; Zinsbescheinigungen der Bank</td><td class="why">Schuldzinsen als Werbungskosten; Tilgung ist nicht abziehbar</td></tr>
+    <tr><td>Versicherungen (Gebäude, Haftpflicht, Glas o. Ä.)</td><td class="why">Laufende Werbungskosten der Vermietung</td></tr>
+    <tr><td>Hausgeldabrechnungen / Wohngeld (ETW, WEG)</td><td class="why">Umlagefähige und nicht umlagefähige Kosten trennen</td></tr>
+    <tr><td>Reparatur- und Instandhaltungsrechnungen</td><td class="why">Erhaltungsaufwand; Abzug im Jahr der Zahlung</td></tr>
+    <tr><td>Verwaltungskosten / Makler / Kontoführungsgebühren</td><td class="why">Weitere Werbungskosten der VuV</td></tr>
+    <tr><td>Fahrtkosten / Kilometernachweis zum Objekt</td><td class="why">Werbungskosten für Objektbesuche / Verwaltung</td></tr>
+    <tr><td>AfA-Berechnung / bisherige AfA-Listen</td><td class="why">Abschreibung fortführen; Doppelansatz vermeiden</td></tr>
+  </table>
+
+  <h3>6. Weitere Einkünfte &amp; Abzüge (falls vorhanden)</h3>
+  <table>
+    <tr><th>Unterlage</th><th>Warum benötigt?</th></tr>
+    <tr><td>Lohnsteuerbescheinigung / Rentenbescheid</td><td class="why">Übrige Einkünfte für die Gesamtveranlagung</td></tr>
+    <tr><td>Kapitalerträge: Steuerbescheinigungen</td><td class="why">Abgeltungsteuer / Günstigerprüfung</td></tr>
+    <tr><td>Vorsorgebeiträge, Spenden, Kirchensteuer</td><td class="why">Sonderausgaben</td></tr>
+    <tr><td>Haushaltsnahe DL / Handwerker (§ 35a) – nur eigener Haushalt</td><td class="why">Nicht mit Vermietungsobjekt verwechseln</td></tr>
+  </table>
+
+  <h3>7. Verträge &amp; Sonderfälle Vermietung</h3>
+  <table>
+    <tr><th>Unterlage</th><th>Warum benötigt?</th></tr>
+    <tr><td>Verträge mit nahen Angehörigen</td><td class="why">Fremdvergleich; Anerkennung durch Finanzamt</td></tr>
+    <tr><td>Ferienwohnung: Belegungsübersicht</td><td class="why">Liebhaberei-Prüfung; ggf. USt prüfen</td></tr>
+    <tr><td>Möblierte / kurzfristige Vermietung</td><td class="why">Abgrenzung VuV vs. Gewerbebetrieb</td></tr>
+    <tr><td>USt-Option / Voranmeldungen (falls optiert)</td><td class="why">Vorsteuerabzug nur bei wirksamer Option</td></tr>
+  </table>
+
+  <h2 class="reflexion">Zusatzaufgabe: Reflexion – Gesprächsführung</h2>
+  <div class="reflexion">
+    <p>
+      Kommt ein fachlich versierter Vermieter (z.&nbsp;B. mit mehreren Objekten oder eigener Excel-Auswertung), sollte ich als Steuerfachangestellte/r strukturiert und präzise auftreten, Fachbegriffe wie AfA, Erhaltungsaufwand und Anlage&nbsp;V korrekt verwenden und gezielt nach fehlenden Objektunterlagen fragen.
+      Wichtig ist, Prioritäten zu setzen: zuerst Objektstammdaten und AfA-Grundlagen, dann Einnahmen, danach Werbungskosten – und offene Punkte schriftlich festzuhalten.
+      Fehlende Belege (Kaufvertrag, Zinsbescheinigung, Hausgeldabrechnung) fordere ich höflich, aber klar nach, damit Fristen und Vorauszahlungen nicht gefährdet werden.
+    </p>
+    <p>
+      Bei einem unsicheren Privatvermieter mit nur einer Wohnung erkläre ich in einfachen Worten, welche Unterlage wofür nötig ist, und gehe die Checkliste Objekt für Objekt durch.
+      Ich schaffe eine ruhige Atmosphäre, sortiere mitgebrachte Unterlagen gemeinsam und vermeide den Eindruck, der Mandant habe „etwas falsch gemacht“.
+      Konkrete nächste Schritte („Bitte bringen Sie bis Freitag den Kaufvertrag und die Zinsbescheinigung der Bank mit“) geben Sicherheit und stärken die Mandantenbeziehung.
+    </p>
+  </div>
+
+  <p class="footer">
+    Hinweis: Checkliste speziell für Vermieter (VuV). Bei zusätzlicher Selbstständigkeit, Erbschaft oder Auslandsobjekten sind weitere Unterlagen erforderlich.
+  </p>
+</body>
+</html>
